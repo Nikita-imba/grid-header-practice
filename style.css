@@ -1,0 +1,29 @@
+.head {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+.ull {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.ull a {
+  text-decoration: none;
+  color: #b0060f; /* или любой другой цвет */
+}
+
+.head img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ull li {
+  margin-right: 20px;
+}
+
+.ull li:last-child{
+   margin-right: 0;
+}
